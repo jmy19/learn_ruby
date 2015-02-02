@@ -60,7 +60,7 @@ describe "#multiply" do
   end
 
   it "multiplies several numbers" do
-    expect(multiply(2, 3)).to eq(6)
+    expect(multiply(2, 3, 5)).to eq(30)
   end
 
 end
