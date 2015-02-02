@@ -47,10 +47,10 @@ describe "#translate" do
   #   expect(s).to eq("aresquay")
   # end
 
-  # it "translates many words" do
-  #   s = translate("the quick brown fox")
-  #   expect(s).to eq("ethay ickquay ownbray oxfay")
-  # end
+  it "translates many words" do
+    s = translate("the quick brown fox")
+    expect(s).to eq("ethay ickquay ownbray oxfay")
+  end
 
   # Extra challenges:
   # Write tests and get them to pass for:

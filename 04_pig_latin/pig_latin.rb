@@ -11,6 +11,10 @@ def startswith?(string, prefix)
 	string[0..prefix.length-1] == prefix
 end
 
+def containsqu?(string)
+	string.include?("qu")
+end
+
 def translateword(string)
 	case
 	when vowel?(string[0])
