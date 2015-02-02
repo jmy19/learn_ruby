@@ -23,5 +23,5 @@ end
 
 def titleize(title)
   stop_words = ["and", "in", "the", "of", "a", "an", "over"]
-  title.capitalize.split.map{|w| stop_words.include?(w) ? w : w.capitalize}.join(' ')
+  title.capitalize.split.map{|w| stop_words.include?(word) ? word : word.capitalize}.join(' ')
 end
