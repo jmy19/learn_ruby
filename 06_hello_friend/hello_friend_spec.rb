@@ -1,3 +1,4 @@
+
 require "friend"
 
 describe Friend do
